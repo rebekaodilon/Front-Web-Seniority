@@ -8,36 +8,16 @@ const navAdmin = [
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Residencias',
-        to: '/admin/residencia/',
+        name: 'Setores',
+        to: '/admin/cadastro-setor/',
         icon: 'cil-building',
-        _class: 'ocultarUsuarioProprietario'
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Usuários',
-        to: '/admin/usuario/',
-        icon: 'cib-superuser',
-        _class: 'ocultarUsuarioProprietario'
+        name: 'Leveis',
+        to: '/admin/cadastro-level/',
+        icon: 'cil-building',
       },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Placas',
-        to: '/admin/placa/',
-        icon: 'cil-storage',
-      },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Clientes',
-        to: '/admin/cliente/',
-        icon: 'cil-user',
-      },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Relatorio de Auditoria',
-        to: '/admin/relatorio/',
-        icon: 'cil-settings',
-      }
     ]
   }
 ];
